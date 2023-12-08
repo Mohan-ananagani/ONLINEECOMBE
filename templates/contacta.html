@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <a href="#"><button>back</button></a>
+  <center><h1>Queries:</h1></center>
+  <div class="row">
+    <div class="col-12 col-md-3">
+      {% for i in contact %}
+      <div class="carding p=3">
+        <label><b>name:</b>{{i[0]}}</label>
+        <label><b>email:</b>{{i[1]}}</label>
+        <label><b>query:</b>{{i[2]}}</label>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</body>
+</html>

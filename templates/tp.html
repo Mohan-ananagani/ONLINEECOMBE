@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Website{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>{% block header %}Welcome to My Website{% endblock %}</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+      </nav>
+
+      <div id="content">
+          {% block content %}{% endblock %}
+      </div>
+  
+      <footer>
+          <p>&copy; 2023 My Website</p>
+      </footer>
+  </body>
+  </html>

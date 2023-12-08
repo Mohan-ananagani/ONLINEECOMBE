@@ -1,0 +1,5 @@
+aws = amazon web services
+elastic bing tag is used in it for scaling the number of users
+for configuring
+git config --global user.name ''
+git config --global user.email ''
